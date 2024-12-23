@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">KotlinApplication</string>
+    <string-array name="countries_array">
+        <item>Nepal</item>
+        <item>India</item>
+        <item>China</item>
+        <item>Others</item>
+    </string-array>
 </resources>
