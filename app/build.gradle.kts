@@ -7,6 +7,10 @@ android {
     namespace = "com.example.kotlinapplication"
     compileSdk = 35
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.kotlinapplication"
         minSdk = 24
