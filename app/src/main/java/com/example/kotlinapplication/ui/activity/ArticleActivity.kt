@@ -24,12 +24,12 @@ class ArticleActivity : AppCompatActivity() {
 
         // Initialize the data list
         articleDataList = ArrayList()
-        articleDataList.add(ArticleModel(R.drawable.qr_code, "QR Code Generator"))
-        articleDataList.add(ArticleModel(R.drawable.crud_operation, "CRUD Operation in MySQL"))
-        articleDataList.add(ArticleModel(R.drawable.plagiarism_checker, "Plagiarism Checker"))
-        articleDataList.add(ArticleModel(R.drawable.data_science, "Data Analysis Project"))
-        articleDataList.add(ArticleModel(R.drawable.numpy_pandas_matplotlib, "NumPy, Pandas, and Matplotlib"))
-        articleDataList.add(ArticleModel(R.drawable.backend_development, "Backend Development"))
+        articleDataList.add(ArticleModel(R.drawable.qr_code, "QR Code Generator", "Learn how to create and customize QR codes for various purposes, including URLs, text, and contact information."))
+        articleDataList.add(ArticleModel(R.drawable.crud_operation, "CRUD Operation in MySQL", "Understand how to perform basic Create, Read, Update, and Delete operations on a MySQL database using SQL queries."))
+        articleDataList.add(ArticleModel(R.drawable.plagiarism_checker, "Plagiarism Checker", "Explore the methods of detecting plagiarism in written content by analyzing text similarities and ensuring originality."))
+        articleDataList.add(ArticleModel(R.drawable.data_science, "Data Analysis Project", "Dive into the world of data analysis by exploring data cleaning, visualization, and applying machine learning techniques to extract valuable insights."))
+        articleDataList.add(ArticleModel(R.drawable.numpy_pandas_matplotlib, "NumPy, Pandas, and Matplotlib", "Discover the power of Python libraries such as NumPy for numerical operations, Pandas for data manipulation, and Matplotlib for data visualization."))
+        articleDataList.add(ArticleModel(R.drawable.backend_development, "Backend Development", "Understand the fundamentals of backend development, including server-side programming, databases, and building APIs to support web applications."))
 
         // Initialize the adapter
         itemAdapter = ArticleAdapter(articleDataList, this)
